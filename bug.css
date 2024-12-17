@@ -1,0 +1,9 @@
+The following CSS code uses the `calc()` function to calculate the width of an element, but it has a syntax error that can cause unexpected behavior or rendering issues:
+
+```css
+div {
+  width: calc(100% - 10px);
+}
+```
+
+The issue is that there's a missing space between the `100%` and the `-` operator.  The `calc()` function requires spaces around arithmetic operators.
