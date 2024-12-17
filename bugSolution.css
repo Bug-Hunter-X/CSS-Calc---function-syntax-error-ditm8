@@ -1,0 +1,9 @@
+The corrected CSS code includes spaces around the minus operator within the `calc()` function:
+
+```css
+div {
+  width: calc(100% - 10px);
+}
+```
+
+By adding these spaces, the `calc()` function correctly parses the expression, calculates the width, and renders the element as intended.
